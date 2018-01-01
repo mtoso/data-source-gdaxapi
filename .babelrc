@@ -9,6 +9,9 @@
       }
     ]
   ],
-  "plugins": ["babel-plugin-inline-import"],
+  "plugins": [
+    "babel-plugin-inline-import",
+    "babel-plugin-transform-class-properties"
+  ],
   "ignore": ["node_modules/**"]
 }

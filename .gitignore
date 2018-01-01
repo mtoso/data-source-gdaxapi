@@ -2,6 +2,7 @@
 node_modules
 *.log
 .vscode
+.env
 
 # Don’t include the built module; npm will do that for us
 dist
