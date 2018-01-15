@@ -1,3 +1,6 @@
+/* eslint-disable import/first, import/newline-after-import */
+require('dotenv').config();
+
 import typeDefs from './schema.graphql';
 import Connector from './connector';
 import Model from './model';

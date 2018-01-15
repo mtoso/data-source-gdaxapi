@@ -1,6 +1,4 @@
-/* eslint-disable import/first, import/newline-after-import */
 
-require('dotenv').config();
 import { GraphQLConnector } from '@gramps/rest-helpers';
 
 export default class GDAXAPIConnector extends GraphQLConnector {
